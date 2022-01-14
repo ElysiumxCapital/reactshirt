@@ -1,0 +1,23 @@
+.shirt__gallery img {
+        border-radius: 18px;
+        padding: 0 10px;
+        float: left;
+        width: 24.9999%;
+  }
+  
+  @media only screen and (max-width: 700px){
+    .shirt__gallery img {
+    
+        border-radius: 18px;
+        width: 49.99999%;
+
+        margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px){
+    .shirt__gallery img {
+        border-radius: 18px;
+        width: 100%;
+    }
+  }
